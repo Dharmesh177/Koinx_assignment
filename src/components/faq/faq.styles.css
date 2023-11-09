@@ -58,9 +58,14 @@
     font-weight: 500;
     line-height: 26px;
     color: #3e424a;
+    text-justify: auto;
+    text-align: justify;
+    display: flex;
+    align-items: left;
+    justify-content: left;
   }
   
-  .separate {
+  .separate {  
     height: 1px;
     width: 830px;
     background-color: #c9cfdd60;

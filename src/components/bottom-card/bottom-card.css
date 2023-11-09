@@ -1,0 +1,72 @@
+.cta-container {
+    width: 1512px;
+    height: 562px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .cta-card {
+    width: 1110px;
+    height: 288px;
+    background-color: #0052fe;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 83px;
+  }
+  .cta-content {
+    width: 557px;
+    height: 152px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .cta-content p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36px;
+    color: #ffffff;
+  }
+  
+  .email-field {
+    width: 365px;
+    height: 20px;
+    border-radius: 3px 0px 0px 3px;
+    display: flex;
+  }
+  .email-field input {
+    width: 248px;
+    height: 20px;
+    padding: 14px 16px 14px 16px;
+    border-radius: 5px 0px 0px 5px;
+    background-color: #ffffff;
+    border: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #474a57;
+  }
+  
+  .email-field button {
+    width: 117px;
+    height: 48px;
+    padding: 14px 24px 14px 24px;
+    border-radius: 0px 5px 5px 0px;
+    background-color: #ffb800;
+    border: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #0f1629;
+    border: 1px solid #ffffff;
+    cursor: pointer;
+  }
+  

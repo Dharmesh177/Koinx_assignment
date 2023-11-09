@@ -1,0 +1,426 @@
+.year_country {
+    width: 713px;
+    height: 95px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .select-year,
+  .select-country {
+    width: 346px;
+    height: 97px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #financialYear {
+    width: 228px;
+    height: 48px;
+    padding: 13px 11px 13px 12px;
+    border-radius: 8px;
+    background-color: #eff2f5;
+    border: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #0f1629;
+  }
+  
+  #country {
+    width: 273px;
+    height: 48px;
+    padding: 13px 11px 13px 12px;
+    border-radius: 8px;
+    background-color: #eff2f5;
+    border: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #0f1629;
+  }
+  
+  #financialYear:focus,
+  #country:focus {
+    outline: 1px solid #0052fe;
+  }
+  
+  .select-year label,
+  .select-country label {
+    height: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #0f1629;
+  }
+  .select-tag-1 {
+    position: relative;
+    cursor: pointer;
+  }
+  .select-tag-2 {
+    position: relative;
+    cursor: pointer;
+  }
+  .select-down-1 {
+    position: absolute;
+    z-index: 199;
+    top: 40.5%;
+    left: 31.2%;
+  }
+  
+  .select-down-2 {
+    position: absolute;
+    z-index: 9;
+    left: 55.4%;
+  }
+
+  .tax_calculator_heading span{
+    width: 638px;
+  height: 42px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 42px;
+  text-align: center;
+  color: #0f1629;
+  }
+
+  .tax_calculator_main {
+    width: 775px;
+    height: 770px;
+    padding: 35px 73px 58px 79px;
+    border-radius: 16px;
+    background-color: #ffffff;
+  }
+  
+  .tax_Calculator_content {
+    width: 729px;
+    height: 75px;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .tax-calculator-body-inputs {
+    width: 713px;
+    height: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .hr-divider {
+    width: 713px;
+    height: 1px;
+    background-color: #c9cfdd60;
+  } 
+
+  .buy-label,.sell-label{
+    height: 24px;
+    font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #0f1629;
+  }
+
+  .crypto-prices{
+    width: 711px;
+  height: 132px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+
+  select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: "";
+  }
+
+  
+  .buy-price .buy-label{
+    width: 158px;
+  }
+  .buy-price .buy-label2{
+    width: 180px;
+  }
+
+  .sell-price .sell-label{
+    width: 137px;
+  }  
+
+  .sell-price .sell-label2{
+    width: 228px;
+  }  
+
+  .sell-price,.buy-price{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+  }
+  .general-input{
+    width: 293px;
+    height: 23px;
+    padding: 17px 20px 17px 32px;
+    border-radius: 8px;
+    background-color: #eff2f5;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    color: rgba(15, 22, 41, 1);
+  }
+  
+  .general-input:focus{
+    outline: 1px solid #0052fe;
+  }
+
+  .input-prefix-fix {
+    position: relative;
+  }
+  
+  .input-padding-fix {
+    padding: 17px 16px 17px 34px;
+  }
+
+  .hr-divider {
+    width: 713px;
+    height: 1px;
+    background-color: #c9cfdd60;
+  }
+  
+  .dollar {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    color: rgba(15, 22, 41, 1);
+    position: absolute;
+    top: 48.4%;
+    left: 3%;
+    z-index: 1;
+  }
+
+  .inv-log-second-row-right {
+    margin-top: 14px;
+    width: 335.5px;
+    height: 92px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .inv-log-duration {
+    width: 335px;
+    height: 84px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .short-term,
+  .long-term {
+    width: 162.5px;
+    height: 84px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .short-term-top,
+  .long-term-top {
+    width: 162.5px;
+    height: 56px;
+    border-radius: 8px;
+    border: 1px solid rgba(62, 66, 74, 1);
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  .short-term-bottom,
+  .long-term-bottom {
+    width: 92px;
+    height: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    color: rgba(62, 66, 74, 1);
+  }
+  
+  .short-term-top-left,
+  .long-term-top-left {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+  }
+  .select-tag-3 {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .select-down-3 {
+    position: absolute;
+    z-index: 9;
+    left: 29.6%;
+    top: 88.5%;
+  }
+
+  
+.inv-log-input {
+  width: 335.5px;
+  height: 66px;
+  padding: 17px 16px 17px 16px;
+  border-radius: 8px;
+  background-color: #eff2f5;
+  border: none;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  color: rgba(15, 22, 41, 1);
+}
+.inv-log-input:focus {
+  outline: 1px solid #0052fe;
+}
+
+  .short-term-top,
+  .long-term-top {
+    width: 162.5px;
+    height: 56px;
+    border-radius: 8px;
+    border: 1px solid rgba(62, 66, 74, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+  }
+  .inv-log-third-row {
+    width: 711px;
+    height: 88px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  
+  .inv-log-third-row-left {
+    width: 335.5px;
+    height: 65px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .inv-log-third-row-right {
+    width: 335.5px;
+    height: 58px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  
+  .tax-rate-label {
+    width: 80px;
+    height: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(62, 66, 74, 1);
+  }
+  .tax-rate {
+    width: 100%;
+    height: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    text-align: left;
+    color: rgba(62, 66, 74, 1);
+  }
+  .tax-to-pay-container {
+    width: 713px;
+    height: 97px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .tax-t-p-left,
+  .tax-t-p-right {
+    width: 336.5px;
+    height: 97px;
+    padding: 8px;
+    border-radius: 8px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .tax-t-p-left {
+    background-color: #ebf9f4;
+  }
+  .tax-t-p-right {
+    background-color: #ebf2ff;
+  }
+  .tax-t-p-left-top,
+  .tax-t-p-right-top {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    color: #0f1629;
+  }
+  
+  .tax-t-p-left-bottom,
+  .tax-t-p-right-bottom {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+  }
+  
+  .tax-t-p-left-bottom {
+    color: #0fba83;
+    display: flex;
+    align-items: center;
+  }
+  .tax-t-p-right-bottom {
+    color: #0141cf;
+    display: flex;
+    align-items: center;
+  }
+  
+  .short-term-top-right,
+  .long-term-top-right {
+    visibility: hidden;
+  }
+  
+  .show-checkbox {
+    visibility: visible;
+  }
+  .selected-investment {
+    color: #0141cf;
+    background-color: #0052fe06;
+    border: 2px solid #0052fe;
+  }
+
+  .income-option{
+    height: 132px;
+    margin: 15px;
+  }

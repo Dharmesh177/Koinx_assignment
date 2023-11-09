@@ -1,0 +1,17 @@
+.landing-page-container {
+    width: 1395px;
+    background-color: #eff2f5;
+    margin: 0 auto;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    display: flex;
+    justify-content: space-between;
+    /* gap: 20px; */
+  }
+  
+  .landing-page-left {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+  }
+  

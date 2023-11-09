@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #eff2f5;
 }
 
 .App-logo {
@@ -26,6 +27,10 @@
 
 .App-link {
   color: #61dafb;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
 }
 
 @keyframes App-logo-spin {

@@ -1,0 +1,78 @@
+.website-card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    background-color: #0052fe;
+    height: 435px;
+    padding: 55px 16px 55px 16px;
+    border-radius: 8px;
+    gap: 35px;
+    justify-content: flex-start;
+    position: sticky;
+    top: 113px;
+  }
+  
+  .card-header {
+    width: 327px;
+    height: 182px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 14px;
+  }
+  .card-header-heading {
+    width: 268px;
+    /* height: 80px; */
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #ffffff;
+    text-align: center;
+  }
+  .card-header-content {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  .card-image-container {
+    width: 178.66px;
+    height: 166.22px;
+  }
+  
+  .card-image-container img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  .website-card-container button {
+    width: 237px;
+    height: 48px;
+    padding: 8px 24px 8px 24px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background-color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    color: #0f1629;
+    cursor: pointer;
+  }
+  .website-card-container button:hover {
+    background-color: #ffffffe2;
+  }
+  .website-card-container button div {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  
